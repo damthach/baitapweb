@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai 16</title>
+</head>
+<body>
+	<form>
+		<h1>Travel reservation form</h1>
+		<b>* denotes mandotory</b>
+		<p>Full name*:</p>
+		<input type="text" name="txtName" placeholder="FirstName LastName" readonly>
+		<p>Email adress*:</p>
+		<input type="text" name="txtEmail" placeholder="EMAIL_ADDRESS" readonly>
+		<p><label for="choice">Select Tour Package*:</label></p>
+		<select id="choice">
+			<option>Goa</option>
+		</select>
+		<p>Arrival date*:</p>
+		<input type="date" name="txtDate">
+		<p>Number of person*:</p>
+		<input type="text" name="txtPerson" placeholder="UNKNOWN_TYPE" readonly>
+		<p>What would you want to avail?*</p>
+		<p>Boarding <input type="checkbox" name="boarding"></p>
+		<p>Foodding <input type="checkbox" name="foodding"></p>
+		<p>Sight seeing <input type="checkbox" name="sight"></p>
+		<p>Disscout Coupon Code:</p>
+		<input type="text" name="txtDisscout" placeholder="UNKNOWN_TYPE" readonly>
+		<p>Terms and coditions*</p>
+		<p><input type="radio" name="agree" checked>I agree <input type="radio" name="disagree">I disagree</p>
+		<input type="submit" name="btnSubmit" value="Complete reservation">
+	</form>
+</body>
+</html>

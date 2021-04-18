@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai 17a</title>
+</head>
+<body style="background-color: orange">
+	<form>
+		<h1 align="center">Survey Form</h1>
+		<p>If you are interested in purchasing one or more of out product, before ordering please complete <br> some or all of the following survey for our marketing departent. Answering any question is <br> optianal, and all information will be kept strictly confidentnal. Thank you very much for your time!</p>
+		<p>1.What is your name?</p>
+		<input type="text" name="txtName" readonly>
+		<p>2.What is your date of birth?</p>
+		<p>Month: <select><option>Jannuary</option></select> Date: <select><option>1</option></select> Year: <input type="text" name="txtYear" size="3"></p>
+		<p>3.What is your mailing address(if you like to have a hard copy of out catalog sent to you?)</p>
+		<textarea cols="50" rows="5">Number/P.O. BOX/Route: <br>Stress/Avenue/Road: <br> City: <br> State/Zip:</textarea>
+		<p>4.What is your email address?</p>
+		<input type="text" name="txtEmail" readonly>
+		<p>5.Have you viewed our online product catalog?</p>
+		<p><input type="radio" name="yes" checked>Yes <input type="radio" name="no">No</p>
+		<p>6.If so, What product(s), besides the one you are ording, might you be interested in purchasing in the future? (Check all that apply)</p>
+		<p><input type="checkbox" name="vcr">VCR</p>
+		<p><input type="checkbox" name="tv">Big Screen TV</p>
+		<p><input type="checkbox" name="audio">Audio Equipment</p>
+		<p><input type="checkbox" name="video">Video Equipment</p>
+		<p><input type="checkbox" name="camera">Camera Equipment</p>
+		<p><input type="checkbox" name="orther" checked>Order <input type="text" name="txtList" value="Please List:"></p>
+		<p>7.Do you have any question, comments or suggestion before proceeding to the Order Form?</p>
+		<textarea rows="10" cols="50">Your Input:</textarea>
+		<p align="center"><input type="submit" name="send" value="Send Form"><input type="submit" name="clear" value="Clear Form"></p>
+	</form>
+</body>
+</html>
